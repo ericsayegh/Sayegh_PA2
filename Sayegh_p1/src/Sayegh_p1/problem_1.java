@@ -7,7 +7,7 @@ public class problem_1 {
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner (System.in);
 		int digit1, digit2, digit3, digit4;
-		int cdigit1, cdigit2, cdigit3, cdigit4;
+		int bdigit1, bdigit2, bdigit3, bdigit4;
 
 		System.out.println("please input the first digit of your code");
 		digit1 = scnr.nextInt();
@@ -20,13 +20,13 @@ public class problem_1 {
 		
 		System.out.println("You entered: " + digit1 + digit2 + digit3 + digit4 ); 
 		
-		cdigit3 = (digit1 + 7) % 10;
-		cdigit4 = (digit2 + 7) % 10;
-		cdigit1 = (digit3 + 7) % 10;
-		cdigit2 = (digit4 + 7) % 10;
+		bdigit3 = (digit1 + 7) % 10;
+		bdigit4 = (digit2 + 7) % 10;
+		bdigit1 = (digit3 + 7) % 10;
+		bdigit2 = (digit4 + 7) % 10;
 		
 
-		System.out.print("Encrpyted code is: " + cdigit1 + cdigit2 + cdigit3 + cdigit4 ); 
+		System.out.print("Encrpyted code is: " + bdigit1 + bdigit2 + bdigit3 + bdigit4 ); 
 		
 		
 	}
